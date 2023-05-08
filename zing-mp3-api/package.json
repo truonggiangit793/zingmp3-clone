@@ -1,0 +1,25 @@
+{
+    "name": "zing-mp3-backend",
+    "version": "23.5.8",
+    "private": true,
+    "scripts": {
+        "start": "node ./src/bin/www",
+        "dev": "nodemon ./src/bin/www"
+    },
+    "dependencies": {
+        "axios": "^1.1.3",
+        "cookie-parser": "^1.4.6",
+        "core-js": "^3.26.1",
+        "cors": "^2.8.5",
+        "debug": "^4.3.4",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "http-errors": "^2.0.0",
+        "morgan": "^1.10.0",
+        "nodemon": "^2.0.20",
+        "swagger-autogen": "^2.22.0",
+        "swagger-ui-express": "^4.6.0",
+        "tailwindcss": "^3.2.4",
+        "zingmp3-api-full": "^1.0.14"
+    }
+}
